@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bloom Progress page prototype showing skincare photo comparison and rating history.">
+    <meta name="author" content="Jesse Nkinsi, DEV109 Team 1">
+    <title>Bloom | Progress</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="../index.html">Bloom</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="today.html">Today</a></li>
+                <li><a href="progress.html" aria-current="page">Progress</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <section class="page-intro">
+            <p class="eyebrow">Progress</p>
+            <h1>Photo Comparison</h1>
+            <p>Compare two progress moments and review rating trends over time.</p>
+        </section>
+
+        <section class="comparison-grid" aria-labelledby="comparison-heading">
+            <h2 id="comparison-heading">Before and After</h2>
+            <article class="photo-card">
+                <div class="photo-placeholder">Week 1</div>
+                <h3>May 28</h3>
+                <p>Redness visible around cheeks.</p>
+            </article>
+            <article class="photo-card">
+                <div class="photo-placeholder">Week 4</div>
+                <h3>June 21</h3>
+                <p>Texture looks smoother and less irritated.</p>
+            </article>
+        </section>
+
+        <section class="panel wide-panel" aria-labelledby="rating-heading">
+            <h2 id="rating-heading">Rating History</h2>
+            <div class="progress-bars">
+                <p><span>Week 1</span><meter min="0" max="5" value="2">2 out of 5</meter></p>
+                <p><span>Week 2</span><meter min="0" max="5" value="3">3 out of 5</meter></p>
+                <p><span>Week 3</span><meter min="0" max="5" value="4">4 out of 5</meter></p>
+                <p><span>Week 4</span><meter min="0" max="5" value="4">4 out of 5</meter></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 DEV109 Team 1. Bloom prototype.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bloom Today page prototype showing daily skincare routine tasks.">
+    <meta name="author" content="Jesse Nkinsi, DEV109 Team 1">
+    <title>Bloom | Today</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="../index.html">Bloom</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="today.html" aria-current="page">Today</a></li>
+                <li><a href="progress.html">Progress</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <section class="page-intro">
+            <p class="eyebrow">Today</p>
+            <h1>Evening Routine</h1>
+            <p>Complete each step, upload a daily photo, and track how your skin feels.</p>
+        </section>
+
+        <section class="dashboard-grid" aria-labelledby="routine-heading">
+            <article class="panel large-panel">
+                <h2 id="routine-heading">Routine Checklist</h2>
+                <ul class="task-list">
+                    <li><label><input type="checkbox" checked> Gentle cleanser</label></li>
+                    <li><label><input type="checkbox" checked> Hydrating toner</label></li>
+                    <li><label><input type="checkbox"> Serum</label></li>
+                    <li><label><input type="checkbox"> Moisturizer</label></li>
+                    <li><label><input type="checkbox"> Sunscreen reminder for tomorrow</label></li>
+                </ul>
+            </article>
+
+            <article class="panel">
+                <h2>Daily Photo</h2>
+                <div class="upload-box">+</div>
+                <p class="muted">Upload a consistent lighting photo to compare progress later.</p>
+            </article>
+
+            <article class="panel">
+                <h2>Skin Rating</h2>
+                <div class="rating">★★★★☆</div>
+                <p class="muted">Today feels calmer than last week.</p>
+            </article>
+
+            <article class="panel wide-panel">
+                <h2>Rest Night Mode</h2>
+                <p>When skin feels irritated, Bloom can switch to a simplified routine focused on recovery.</p>
+                <a class="button small" href="settings.html">Adjust Routine</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 DEV109 Team 1. Bloom prototype.</p>
+    </footer>
+</body>
+</html>
